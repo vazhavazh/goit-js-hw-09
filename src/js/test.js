@@ -79,7 +79,7 @@ const fp = flatpickr(datetimePickerInput, {
             },
             stop() {
                 clearInterval(this.intervalId)
-                btnTimerStart.disabled = false
+
             }
         }
 

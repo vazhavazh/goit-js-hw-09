@@ -17,42 +17,39 @@ img {
   max-width: 100%;
 }
 
-.field {
-      position: relative;
-    float: left;
-    height: 110px;
-    width: 100px;
-    margin-right: 10px;
-    background-color: #fff;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-   
-    flex-wrap: wrap;
-          background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
-   
-}
+
 
 .value {
 
     font-size: 80px;
-    color: #daf6ff;
-        text-shadow: 0 0 20px #0aafe6, 0 0 20px rgb(10 175 230 / 0%);
+   color: gold;
         font-family: "Share Tech Mono", monospace;
        
 }
 
+.timer-body {
+  background-color: cornflowerblue;
+}
 .label {
-      display: block;
+     
     font-size: 20px;
 
-    color: black;
+    color: gold;
     text-transform: uppercase;
     font-family: "Share Tech Mono", monospace;
    
 }
  .timer {
-  display: block;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-content: center;
   margin-top: 20px;
 
+ }
+
+ .field {
+  display: flex;
+  flex-wrap: wrap;
+    align-items: baseline;
  }
