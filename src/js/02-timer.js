@@ -1,7 +1,4 @@
 
-
-console.log("привет");
-
 // Описан в документации
 import flatpickr from "flatpickr";
 // Дополнительный импорт стилей

@@ -14,7 +14,7 @@ stopButton.disabled = true
 startButton.addEventListener('click', () => {
     startButton.disabled = true
     stopButton.disabled = false
-     timerId = setInterval(() => {
+    timerId = setInterval(() => {
         const randomColorValue = getRandomHexColor()
         bodyEl.style.backgroundColor = randomColorValue
     }, 1000);
@@ -28,4 +28,3 @@ stopButton.addEventListener('click', () => {
 })
 
 
-console.log("dfdf");
