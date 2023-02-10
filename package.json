@@ -5,11 +5,11 @@
   "homepage": "https://vazhavazh.github.io/goit-js-hw-09/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09.git/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vazhavazh/goit-js-hw-09.git"
+    "url": "git+https://github.com/vazhavazh.github.io/goit-js-hw-09.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "flatpickr": "^4.6.13",
+    "notiflix": "^3.2.6",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
